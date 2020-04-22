@@ -4,6 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5</title>
+    <style>
+        div h3{
+            text-align: center;
+            background-color: tomato;
+        }
+        div {
+            background-color: teal;
+            margin: 10px;
+            padding: 20px;
+        }
+        h1{
+            font-family: monospace;
+            text-align: center;
+            color: darkmagenta;
+        }
+        table{
+            border: yellowgreen 3px solid;
+            border-collapse: collapse;
+            width: 40%;
+        }
+        th, td{
+            padding: 5px;
+            border: steelblue 1px solid;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -14,6 +40,8 @@
         <h4>This is heading 4</h4>
         <h5>This is heading 5</h5>
         <h6>This is heading 6</h6>
+
+        <p>This is a paragraph</p>
     </div>
     
 </br>
@@ -22,7 +50,7 @@
         <ul>
             <li>This</li>
             <li>is</li>
-            <li>a</li>
+            <li>an</li>
             <li>unordered</li>
             <li>list</li>
         </ul>
@@ -30,7 +58,7 @@
         <ol>
             <li>This</li>
             <li>is</li>
-            <li>a</li>
+            <li>an</li>
             <li>ordered</li>
             <li>list</li>
         </ol>
@@ -38,11 +66,39 @@
 
 <br>
 
-    <div>
-        <img src="https://i.insider.com/5e820b04671de06758588fb8?width=1300&format=jpeg&auto=webp" alt="Naruto Shadow Clone" height="150px" width="150px">
-        
-        
-    </div>
+    <img src="https://i.insider.com/5e820b04671de06758588fb8?width=1300&format=jpeg&auto=webp" alt="Naruto Shadow Clone" width="40%">
+
+<br>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Arbaaz Shaikh</td>
+            <td>21</td>
+            <td>Smart</td>
+        </tr>
+        <tr>
+            <td>Shubham Echake</td>
+            <td>21</td>
+            <td>Chamadi</td>
+        </tr>
+        <tr>
+            <td>Arbaz Shaikh</td>
+            <td>21</td>
+            <td>Ruchi nahi pategi</td>
+        </tr>
+    </table>
+
+<br>
+
+    <form action="" method="get">
+        <input type="text" placeholder="Any suggestion" name="sugest">
+        <button>Submit</button>
+    </form>
 
 </body>
 </html>
